@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+.small_pizza {background-color: rgb(255, 127, 202);
+flex: 2;}
+.medium_pizza {background-color: beige;
+flex: 2;}
+.large_pizza {background-color: azure;
+flex: 2;}
+.contacts {background-color: rgb(205, 255, 224);
+
+}
+.pizza {
+    border: 5px solid blueviolet;
+    padding: 3em;
+    margin: 3em;
+    border-radius: 0em;
+}
+@media (min-width: 960px) {
+    .pizzas{display: flex;}
+}
